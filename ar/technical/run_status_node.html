@@ -596,8 +596,8 @@ make statusgo</code></pre>
 <h3 id="Metrics" class="article-heading"><a href="#Metrics" class="headerlink" title="Metrics"></a>Metrics<a class="article-anchor" href="#Metrics" aria-hidden="true"></a></h3><p>To enable Prometheus metrics, use the following flags when running <code>statusd</code>:</p>
 <pre><code class="sh">./build/bin/statusd -metrics -metrics-port=9090</code></pre>
 <p>Metrics will be exposed on the <code>9090</code> port:</p>
-<pre><code class="sh"> &gt; curl -s localhost:9090/metrics | grep &#39;^whisper_envelopes_received_total&#39;
-whisper_envelopes_received_total 123</code></pre>
+<pre><code class="sh"> &gt; curl -s localhost:9090/metrics | grep &#39;^waku_envelopes_received_total&#39;
+waku_envelopes_received_total 123</code></pre>
 <h3 id="Healthcheck" class="article-heading"><a href="#Healthcheck" class="headerlink" title="Healthcheck"></a>Healthcheck<a class="article-anchor" href="#Healthcheck" aria-hidden="true"></a></h3><p>To check if the service is running, use the JSON RPC administration API:</p>
 <pre><code class="sh"> $ export DATA=&#39;{&quot;jsonrpc&quot;:&quot;2.0&quot;,&quot;method&quot;:&quot;admin_peers&quot;,&quot;params&quot;:[],&quot;id&quot;:1}&#39;
  $ curl -s -H &#39;content-type: application/json&#39; -d &quot;$DATA&quot; localhost:8545 | jq -r &#39;.result[].network.remoteAddress&#39;
