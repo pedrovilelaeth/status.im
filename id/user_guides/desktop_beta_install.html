@@ -505,6 +505,11 @@
         <a class="text-primary-base" href="/id/user_guides/desktop_beta_install.html">Desktop Beta Installation</a>
         
       </li>
+
+      <li class="py-4 xl:mb-6 border-t border-gray-100 xl:border-t-0 xl:py-0">
+        <a class="text-gray-900 hover:text-primary-base" href="/id/user_guides/gpg_signature_verification.html">GPG Signature Verification</a>
+        
+      </li>
         </ul>
         
       </li>
@@ -529,7 +534,7 @@
   				<div class="custom-article js-editor-content">
   					<p>Due to the app being still in Beta, some manual steps are required to install or upgrade the App.</p>
 <h2 id="MacOS" class="article-heading"><a href="#MacOS" class="headerlink" title="MacOS"></a>MacOS<a class="article-anchor" href="#MacOS" aria-hidden="true"></a></h2><ul>
-<li>Download the <a href="https://status-im-files.ams3.cdn.digitaloceanspaces.com/StatusIm-Desktop-v0.1.0-beta.10-06484e.dmg" target="_blank" rel="noopener">Status DMG file</a>.</li>
+<li>Download the <a href="https://status-im-files.ams3.cdn.digitaloceanspaces.com/StatusIm-Desktop-v0.2.1-beta-1632af.dmg" target="_blank" rel="noopener">Status DMG file</a>.</li>
 <li>If you are upgrading from a previous version:<ul>
 <li>Open Finder and in the menu bar click <code>Go</code>.</li>
 <li>Select <code>Go To Folder...</code>, type or paste <code>~/Library/Application Support/Status</code> and then press Return.</li>
@@ -540,12 +545,14 @@
 <li>When opening the newly copied app for the first time: <code>control+click -&gt; Open -&gt; OK</code> then <code>control+click -&gt; Open -&gt; Open</code>.</li>
 </ul>
 <h2 id="Linux" class="article-heading"><a href="#Linux" class="headerlink" title="Linux"></a>Linux<a class="article-anchor" href="#Linux" aria-hidden="true"></a></h2><ul>
-<li>Download the <a href="https://status-im-files.ams3.cdn.digitaloceanspaces.com/StatusIm-Desktop-v0.1.0-beta.10-06484e.AppImage" target="_blank" rel="noopener">Status AppImage file</a>.</li>
+<li>Download the <a href="https://status-im-files.ams3.cdn.digitaloceanspaces.com/StatusIm-Desktop-v0.2.1-beta-1632af.tar.gz" target="_blank" rel="noopener">Status Tarball file</a>.</li>
 <li>If you are upgrading from a previous version, backup the <code>~/.config/Status</code> directory somewhere else if you need it then delete it.</li>
-<li>Make the downloaded <code>.AppImage</code> file executable: <code>chmod +x StatusIm-Desktop*.AppImage</code>.</li>
+<li>Unpack the <code>AppImage</code> from the Tarball: <code>tar xvf StatusIm-Desktop-*.tar.gz</code></li>
+<li>Optionally <a href="./gpg_signature_verification.html">verify the GPG signature of the application</a>.</li>
+<li>Execute the <code>AppImage</code> by prefixing it with <code>./</code>: <code>./StatusIm-Desktop-*.AppImage</code></li>
 </ul>
 <h2 id="Windows" class="article-heading"><a href="#Windows" class="headerlink" title="Windows"></a>Windows<a class="article-anchor" href="#Windows" aria-hidden="true"></a></h2><ul>
-<li>Download the <a href="https://status-im-files.ams3.cdn.digitaloceanspaces.com/StatusIm-Desktop-v0.1.0-beta.10-06484e.zip" target="_blank" rel="noopener">Status ZIP file</a>.</li>
+<li>Download the <a href="https://status-im-files.ams3.cdn.digitaloceanspaces.com/StatusIm-Desktop-v0.2.1-beta-1632af.exe" target="_blank" rel="noopener">Status ZIP file</a>.</li>
 <li>If you are upgrading from a previous version:<ul>
 <li>Press the Start button and select <code>Run</code> (or press the Windows Key + R), type or paste <code>%LOCALAPPDATA%\Status</code> and then press Enter.</li>
 <li>Backup this Status folder somewhere else if you need it then delete it.</li>
@@ -563,7 +570,7 @@
 
   				</div>
   				<div class="mt-32 border-t border-gray-200 pt-8 text-gray-500 text-center text-lg font-special">
-  					Last update: 2021-08-12
+  					Last update: 2021-08-18
   					
   				</div>
 				</div>
