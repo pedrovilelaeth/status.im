@@ -338,7 +338,7 @@
           </div>
           <div class="px-8">
               <div class="mx-auto flex justify-center items-center md:block">
-                  <img src="/crypto-atelier/img/crypto-atelier.png" srcset="/crypto-atelier/img/crypto-atelier-2x.png 2x" class="mx-auto flex justify-center items-center md:block">
+                  <img src="/crypto-atelier/img/crypto-atelier.png" srcset="/img/crypto-atelier-2x.png 2x" class="mx-auto flex justify-center items-center md:block">
               </div>
           </div>
       </div>
@@ -407,7 +407,7 @@
                   </div>				
               </a>
               <a href="#" target="_blank" class="block bg-white p-8 lg:p-12 flex flex-col justify-left items-left text-left">
-                  <img src="/crypto-atelier/img/crypto-atelier-nft.png">
+                  <img src="/img/crypto-atelier-nft.png">
                   <h5 class="font-special font-bold text-primary-base mt-12">NFT Incrível Brasil</h5>
                   <p class="text-gray-500 mt-8 text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed viverra facilisis dignissim.</p>
                   <div class="flex items-center mt-12">
@@ -475,186 +475,15 @@
 </section>
 <!-- END-NFT -->
 
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/js/splide.min.js"></script>
+<script>
+  var splide = new Splide( '.image-slider' ).mount();
 
+  splide.on( 'pagination:updated', function() {
+    $('.splide__pagination__page.is-active').css("background", "#ccc");
+  } );
+</script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/splide.min.css">
-        <footer class="js-footer custom-footer bg-black pt-12 pb-48 text-white ">
-    <div class="max-w-screen-2xl mx-auto px-8 lg:px-20 mt-12">
-        <div class="flex flex-col lg:flex-row lg:justify-between">
-            <h3 class="font-display font-normal text-4xl xl:text-5xl 2xl:text-6xl">Ready to get started <br>with Status?</h3>
-            <div class="lg:flex lg:items-center">
-                <div class="flex items-center mt-8 lg:mt-0">
-                    <a style="border:1px solid white;border-radius: 4px;" href="https://apps.apple.com/us/app/status-private-communication/id1178893006" target="_blank" rel="noopener" id="official:ios" class="mr-6 app-download"><img src="/img/app-store.svg"></a>
-                    <a style="border:1px solid white;border-radius: 4px;" href="https://play.google.com/store/apps/details?id=im.status.ethereum" target="_blank" rel="noopener" id="official:apk" class="mr-6 app-download"><img src="/img/google-play.svg"></a>
-                    <a style="border:1px solid white;border-radius: 4px;" href="https://status-im-files.ams3.cdn.digitaloceanspaces.com/StatusIm-Mobile-v1.15.0-5e46db.apk" target="_blank" rel="noopener" id="official:apk" class="mr-6 app-download"><img src="/img/apk.svg"></a>
-                    <a style="border:1px solid white;border-radius: 4px;" href="https://f-droid.org/packages/im.status.ethereum/" target="_blank" rel="noopener" id="official:fdroid" class="mr-8 app-download"><img src="/img/fdroid.svg"></a>
-                </div>
-                <a href="/get-involved/" class="mt-8 py-3 px-4 border flex items-center justify-between lg:mt-0 border-white hover:bg-white hover:text-black rounded font-special font-medium">
-                  Get Involved
-                  <span class="ml-20"><img src="/img/icon-arrow-right.svg"></span>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="max-w-screen-2xl mx-auto px-8 lg:px-20 mt-24 xl:mt-40 navigation">
-        <div class="grid md:grid-cols-4 md:gap-12">
-            <div class="border-t border-gray-800 py-8 lg:pb-0 lg:pt-12">
-                
-                <h5 class="uppercase font-special tracking-widest text-lg text-gray-600">
-                  <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-1" role="button" aria-expanded="true" aria-controls="footer-nav-1">
-                    Product
-                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
-                  </a>
-                </h5>
-                <div class="js-collapse custom-accordion" id="footer-nav-1">
-                    <ul class="text-lg font-body text-gray-200">
-                        <li class="mt-4"><a class="hover:text-white" href="/features/">Features</a></li>
-                        <li class="mt-4"><a class="hover:text-white" href="/security/">Security</a></li>
-                        <li class="mt-4"><a class="hover:text-white" href="/get/">Get App</a></li>
-                        <li class="mt-4"><a class="hover:text-white" href="/nightly/">Nightly</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-800 py-8 lg:pb-0 lg:pt-12">
-                
-                <h5 class="uppercase font-special tracking-widest text-lg text-gray-600">
-                  <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-2" role="button" aria-expanded="true" aria-controls="footer-nav-2">
-                    Status
-                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
-                  </a>
-                </h5>
-                <div class="js-collapse custom-accordion" id="footer-nav-2">
-                    <ul class="text-lg font-body text-gray-200">
-                        <li class="mt-4"><a href="/get-involved/">Get Involved</a></li>
-                        <li class="mt-4"><a href="/about/">About</a></li>
-                        <li class="mt-4"><a href="http://statusnetwork.com/press-kit/status/" target="_blank">Media Kit</a></li>
-                        <li class="mt-4"><a href="https://our.status.im/" target="_blank" rel="noopener">Blog</a></li>
-                        <li class="mt-4"><a href="/files/whitepaper.pdf" target="_blank">White Paper</a></li>
-                        <li class="mt-4"><a href="https://analytics.status.im/" target="_blank">Analytics</a></li>
-                        <li class="mt-4"><a href="https://jobs.status.im/" target="_blank">Jobs</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-800 py-8 lg:pb-0 lg:pt-12">
-                
-                <h5 class="uppercase font-special tracking-widest text-lg text-gray-600">
-                  <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-3" role="button" aria-expanded="true" aria-controls="footer-nav-3">
-                    Documentation
-                    <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
-                  </a>
-                </h5>
-                <div class="js-collapse custom-accordion" id="footer-nav-3">
-                    <ul class="text-lg font-body text-gray-200">
-                        <li class="mt-4"><a href="/docs/">Developers</a></li>
-                        <li class="mt-4"><a href="/developer_tools/">DApp Integration</a></li>
-                        <li class="mt-4"><a href="/technical/">Contributor Guide</a></li>
-                        <li class="mt-4"><a href="https://tutorials.statusnetwork.com/" target="_blank" rel="noopener">Tutorials</a></li>
-                        <li class="mt-4"><a href="https://specs.status.im/" target="_blank" rel="noopener">Specs</a></li>
-                        <li class="mt-4"><a href="/faq/">FAQs</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="border-t border-gray-800 py-8 lg:pb-0 lg:pt-12">
-                
-                <h5 class="uppercase font-special tracking-widest text-lg text-gray-600">
-                  <div class="lg:flex lg:items-center">
-                      <a data-toggle="collapse" class="js-collapse-trigger custom-accordion-trigger flex items-center justify-between" href="#footer-nav-4" role="button" aria-expanded="true" aria-controls="footer-nav-4">
-                          Status Network
-                          <span class="custom-accordion-arrow transform transition-all -rotate-90 duration-200 linear lg:hidden ml-4 text-gray-100"><img src="/img/icon-arrow-right.svg"></span>
-                      </a>
-                      <a href="https://statusnetwork.com/" target="_blank" class="hidden lg:block ml-4 flex-shrink-0 -mt-2"><img src="/img/footer-status-network-logo.svg"></a>
-                    </div>
-                </h5>
-                <div class="js-collapse custom-accordion" id="footer-nav-4">
-                    <ul class="text-lg font-body text-gray-200">
-                        <li class="mt-4"><a href="https://keycard.tech/" target="_blank">Keycard</a></li>
-                        <li class="mt-4"><a href="https://assemble.fund/" target="_blank">Assemble</a></li>
-                        <li class="mt-4"><a href="https://embark.status.im/" target="_blank">Embark</a></li>
-                        <li class="mt-4"><a href="https://subspace.status.im/" target="_blank">Subspace</a></li>
-                        <li class="mt-4"><a href="https://vac.dev/" target="_blank">Vac</a></li>
-                        <li class="mt-4"><a href="https://nimbus.team/" target="_blank">Nimbus</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="max-w-screen-2xl mx-auto px-8 lg:px-20 mt-16 lg:mt-40">
-            <h5 class="font-special uppercase tracking-widest text-lg">Connect</h5>
-            <ul class="flex flex-wrap items-center -ml-8 mt-4">
-                <li class="ml-8 mt-8">
-                    <a href="https://join.status.im/chat/public/status" target="_blank">
-                       <img src="/img/status-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://discord.gg/3Exux7Y" target="_blank">
-                        <img src="/img/discord-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://www.facebook.com/ethstatus" target="_blank">
-                        <img src="/img/facebook-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://twitter.com/ethstatus" target="_blank">
-                        <img src="/img/twitter-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://discuss.status.im/" target="_blank">
-                        <img src="/img/discuss-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://github.com/status-im" target="_blank">
-                        <img src="/img/github-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://www.reddit.com/r/statusim/" target="_blank">
-                        <img src="/img/reddit-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://www.youtube.com/statusim" target="_blank">
-                        <img src="/img/youtube-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://www.instagram.com/status.im/" target="_blank">
-                        <img src="/img/instagram-footer-logo.svg">
-                    </a>
-                </li>
-                <li class="ml-8 mt-8">
-                    <a class="hover:text-white" href="https://weibo.com/u/3928626105" target="_blank">
-                        <img src="/img/weibo-footer-logo.svg">
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="max-w-screen-2xl mx-auto px-8 lg:px-20 text-lg mt-24 lg:mt-40">
-        <div class="flex flex-col lg:flex-row lg:justify-between text-gray-400 font-body">
-            <div>
-                <div class="flex items-center">
-                    <a href="/privacy-policy/">Privacy Policy</a>
-                    <a href="/terms-of-use/" class="ml-24">Terms of Use</a>
-                    <a href="https://our.status.im/implementing-fathom-analytics-on-marketing-websites/" target="_blank" rel="noopener" class="ml-24">Site Analytics</a>
-                </div>
-                <p class="text-gray-600 mt-4">Status Research & Development GmbH, Baarerstrasse 10, Zug, Switzerland</p>
-            </div>
-            <p class="mt-8 lg:mt-0">
-                <a href="https://messari.io/asset/status/" target="_blank" class="flex items-center">
-                    Messari Transparency Verified 
-                    <svg width="34" height="39" viewBox="0 0 34 39" fill="none" xmlns="http://www.w3.org/2000/svg" class="ml-4">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.619 6.78163L16.354 0.130678C16.7424 -0.04464 17.1887 -0.0435034 17.5762 0.133791L32.0108 6.73815C32.4435 6.93613 32.7519 7.33018 32.8377 7.79455C34.0223 14.2086 33.5242 20.161 31.3434 25.6518C29.0785 31.3543 24.3727 35.4913 17.226 38.0626C9.87383 36.2554 4.90753 31.9102 2.32714 25.0269C-0.145514 18.431 -0.647719 12.6534 0.82053 7.69391C0.940286 7.2894 1.2317 6.95644 1.619 6.78163ZM20.1354 10.4413L16.0844 14.5553L14.5369 13.0577C14.1926 12.7246 13.6316 12.7218 13.2837 13.0515C12.9359 13.3813 12.933 13.9187 13.2773 14.2519L15.47 16.3738C15.8226 16.7151 16.4004 16.7084 16.7444 16.3591L21.4247 11.606C21.7605 11.265 21.7441 10.7278 21.3881 10.4062C21.032 10.0845 20.4712 10.1002 20.1354 10.4413ZM23.432 15.4245C23.432 15.3277 23.393 15.2349 23.3236 15.1667C23.1799 15.0257 22.9479 15.0267 22.8055 15.1691L20.0205 17.9523C19.9525 18.0203 19.9144 18.1121 19.9144 18.2077V26.9774C19.9144 27.0655 19.9467 27.1506 20.0054 27.2167C20.1388 27.3674 20.3703 27.3823 20.5223 27.2501L23.3073 24.8297C23.3866 24.7608 23.432 24.6614 23.432 24.5569V15.4245ZM16.9686 20.9306C16.8355 21.0433 16.6405 21.0469 16.5032 20.9392L15.6375 20.2602C15.5728 20.2094 15.4927 20.1818 15.4101 20.1818C15.2078 20.1818 15.0438 20.3442 15.0438 20.5446V26.9781C15.0438 27.0666 15.0764 27.152 15.1355 27.2183C15.2694 27.3685 15.5009 27.3827 15.6525 27.2501L18.4375 24.815C18.5163 24.7461 18.5614 24.647 18.5614 24.543V20.3701C18.5614 20.2837 18.5303 20.2001 18.4736 20.1344C18.3422 19.982 18.111 19.964 17.9571 20.0942L16.9686 20.9306ZM10.4437 15.4237V26.9822C10.4437 27.1826 10.6078 27.345 10.8101 27.345C10.8943 27.345 10.976 27.3163 11.0414 27.2636L13.8264 25.0175C13.9118 24.9486 13.9614 24.8452 13.9614 24.7361V18.19C13.9614 18.0939 13.923 18.0018 13.8545 17.9338L11.0695 15.1675C10.9266 15.0256 10.6947 15.0253 10.5514 15.1668C10.4825 15.2349 10.4437 15.3273 10.4437 15.4237Z" fill="#808080"/>
-                    </svg>
-                </a>
-            </p>
-        </div>
-    </div>
-</footer>
 
         
     </div>
